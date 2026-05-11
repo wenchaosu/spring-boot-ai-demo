@@ -1,0 +1,19 @@
+schema: spec-driven
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+context: |
+  Language: 规格类产出（proposal/design/specs/tasks 中的叙述性正文）默认使用简体中文。
+  保留 OpenSpec 要求的 Markdown 结构：章节标题层级、`### Requirement:`、`#### Scenario:`、
+  `- **WHEN**` / `- **THEN**` 等标记（标签本身可保留英文以便解析；紧随其后的说明用中文）。
+  技术栈：Spring Boot、Java；领域变更以仓库内 openspec 与业务文档为准。
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
